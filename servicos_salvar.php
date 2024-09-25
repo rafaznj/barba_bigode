@@ -27,12 +27,14 @@ and open the template in the editor.
         <div id="body">
 
             <?php
+                
                 include "conexao_bd.php";
 
                 $descricao = $_POST["txtDescricao"];
                 $preco = $_POST["txtPreco"];
 
                 $sql = "INSERT INTO servico(descricao, valor_servico) VALUES('$descricao','$preco')";
+                
                 if (executarComando($sql)){
                     echo "<h1>Serviço adicionado com sucesso.</h1>";
                 }
