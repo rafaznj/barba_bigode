@@ -36,7 +36,7 @@ and open the template in the editor.
                 $sql = "INSERT INTO servico(descricao, valor_servico) VALUES('$descricao','$preco')";
                 
                 if (executarComando($sql)){
-                    echo "<h1>Serviço adicionado com sucesso.</h1>";
+                    echo "<h2>Serviço adicionado com sucesso.</h2>";
                 }
                 else{
                     echo "<h1>Erro ao tentar adicionar serviço</h1>";
