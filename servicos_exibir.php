@@ -26,6 +26,11 @@ and open the template in the editor.
 
                 <h1><span>Serviços disponíveis</span></h1>
 
+                <?php 
+                    include "conexao_bd.php";
+                    include "servicos_salvar.php"; 
+                ?>
+
                  <ol>
 
                     <li>

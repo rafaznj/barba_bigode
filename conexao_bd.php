@@ -3,7 +3,7 @@
 $servidor = "locahost";
 $usuario = "root";
 $senha = "";
-$bd = "";
+$bd = "barba_bigode";
 
 // Criando nova conexão 
 global $conn;
@@ -45,6 +45,7 @@ function retornarDados($sql) {
         //return 0;
     }
 }
+
 ?>
 
 
