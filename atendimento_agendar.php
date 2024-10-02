@@ -44,7 +44,7 @@ and open the template in the editor.
                                 while ($linha = mysqli_fetch_assoc($resultado))
                                 {
                                     ?>
-                                    <option>
+                                    <option value="<?php ?>">
                                         <?php echo $linha["descricao"]; ?>
                                         R$
                                         <?php echo $linha["preco"]; ?>
